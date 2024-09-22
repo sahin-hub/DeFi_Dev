@@ -128,7 +128,7 @@ app.post('/api/subscription', async (req, res) => {
 // listen for requests
 //connectDb(MONGO_URL).then(() => {
 app.listen(port, () => {
-  // userController.checkIP();
+  userController.checkIP();
   console.log(`Server is listening on port ${port}`);
 });
 //});
