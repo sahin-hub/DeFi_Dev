@@ -1,7 +1,3 @@
-Here's a template for your **DeFi project README** on GitHub:
-
----
-
 # DeFi Project
 
 ## Overview
