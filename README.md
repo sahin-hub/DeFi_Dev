@@ -23,9 +23,8 @@ This project is a decentralized finance (DeFi) platform that integrates decentra
 
 ### Prerequisites
 Before running this project locally, ensure you have the following installed:
-- Node.js (v14+)
-- npm (v6+)
-- MetaMask browser extension (for testing)
+- Node.js (v16+)
+- MetaMask browser extension
 - Truffle or Hardhat (for smart contract development)
 
 ### Installation
@@ -41,30 +40,10 @@ Before running this project locally, ensure you have the following installed:
    npm install
    ```
 
-3. **Configure environment variables**:
-   Create a `.env` file in the root of the project with the following environment variables:
-   ```bash
-   INFURA_API_KEY=<Your Infura API Key>
-   PRIVATE_KEY=<Your Wallet Private Key>
-   ```
-
-4. **Deploy smart contracts**:
-   Use Truffle or Hardhat to deploy the contracts on the blockchain:
-   ```bash
-   npx hardhat run scripts/deploy.js --network <network>
-   ```
-
-5. **Run the application**:
+3. **Run the application**:
    ```bash
    npm start
    ```
-
-### Testing
-You can run tests for the smart contracts and frontend using the following command:
-```bash
-npm run test
-```
-
 ## Usage
 
 ### Wallet Integration
@@ -92,7 +71,7 @@ The smart contracts for this project are written in Solidity and handle:
 
 ## Contributing
 We welcome contributions! If you'd like to contribute, please follow these steps:
-1. Fork the repository.
+1. Clone the repository.
 2. Create a new branch: `git checkout -b feature/your-feature`.
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature/your-feature`.
