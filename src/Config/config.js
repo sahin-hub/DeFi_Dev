@@ -6,10 +6,10 @@ import {PresaleManageABI} from "./ABI/Presale/PresaleManage.js";
 import {PresaleSettingABI} from "./ABI/Presale/PresaleSetting.js";
 import {PresaleABI} from "./ABI/Presale/Presale.js";
 // import {PresaleABI} from "./ABI/Presale/Presale_Temp.js";
-import {LockForwarderABI} from "./ABI/Presale/PresaleLockForwarder.js";
-import {manageCreateTokenABI} from "./ABI/CreateToken/CreateManage.js";
-import {standardTokenCreateABI} from "./ABI/CreateToken/StandardToken.js";
-import {liquidityTokenCreateABI} from "./ABI/CreateToken/LiquidityToken.js";
+// import {LockForwarderABI} from "./ABI/Presale/PresaleLockForwarder.js";
+// import {manageCreateTokenABI} from "./ABI/CreateToken/CreateManage.js";
+// import {standardTokenCreateABI} from "./ABI/CreateToken/StandardToken.js";
+// import {liquidityTokenCreateABI} from "./ABI/CreateToken/LiquidityToken.js";
 
 export const TOKENLOCK_ADDRESS = {
   eth: '0x98106b29701B693AF00F002679FdbeF47Ef43E17',
@@ -43,18 +43,18 @@ export const LIQUIDITY_LOCK_ABI = {
   token: LptokenABI,
 }
 
-export const PRESALE_ABI = {
-  manage:PresaleManageABI,
-  setting:PresaleSettingABI,
-  presale:PresaleABI,
-  lockforwarder:LockForwarderABI,
-}
+// export const PRESALE_ABI = {
+//   manage:PresaleManageABI,
+//   setting:PresaleSettingABI,
+//   presale:PresaleABI,
+//   lockforwarder:LockForwarderABI,
+// }
 
-export const CREATE_TOKEN_ABI = {
-  manage:manageCreateTokenABI,
-  standard:standardTokenCreateABI,
-  liquidity:liquidityTokenCreateABI,
-}
+// export const CREATE_TOKEN_ABI = {
+//   manage:manageCreateTokenABI,
+//   standard:standardTokenCreateABI,
+//   liquidity:liquidityTokenCreateABI,
+// }
 
 export const GetCoinPriceURL = {
   eth:"https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR",
