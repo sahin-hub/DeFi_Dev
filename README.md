@@ -31,8 +31,8 @@ Before running this project locally, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/TopRateProjects/SalesDev.git
-   cd SalesDev
+   git clone https://github.com/yolo729/yolo_top_defi.git
+   cd yolo_top_defi
    ```
 
 2. **Install dependencies**:
